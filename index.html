@@ -1,1 +1,55 @@
 
+<html>
+<head>
+<style>
+li {display:inline;border:1px black solid;border-radius:0px;font-size:40px;background-color:black;color:white;}
+p{text-align:center;}
+#name{height:200px;width:880px;background-color:lightgrey;text-align:center;}
+h1{font-size:100px;color:red;font-family:batang;}
+
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+  
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+  color:black;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+</style>
+</head>
+<body>
+  <div id="name"><h1><i>Zera-Fect</i></h1></div>
+<div id="hnav">
+<ul>
+  <li>Home</li>
+   <li>Videos</li>
+  <li class="dropdown"><span>News</span>
+  <div class="dropdown-content">
+    <a>link1</a>
+    <a>link2</a>
+    <a>link3</a>
+    
+  </div></li>
+  <li>About us</li>
+  <li class="dropdown"><span>Contact Us</span><div class="dropdown-content">287-35th street NY 11037<br>347-666-7777<br>zerafect@gmail.com<br>C.E.O </div></li>
+  
+</ul>
+  </div>
+  
+
+</body>
+</html>
+
